@@ -24,6 +24,13 @@ function App() {
       >
         Add Person
       </button>
+      <button
+        onClick={() => {
+          setPeople([]);
+        }}
+      >
+        Delete Everything
+      </button>
     </div>
   );
 }
