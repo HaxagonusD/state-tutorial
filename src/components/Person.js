@@ -1,3 +1,4 @@
+// This is ther Person component
 import { useState } from "react";
 function Person({ name }) {
   const [count, setCount] = useState(0);
